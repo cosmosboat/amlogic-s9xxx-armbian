@@ -163,7 +163,7 @@ on:
       armbian_fstype:
         description: "Set armbian rootfs type."
         required: false
-        default: "btrfs"
+        default: "ext4"
         type: choice
         options:
           - ext4
