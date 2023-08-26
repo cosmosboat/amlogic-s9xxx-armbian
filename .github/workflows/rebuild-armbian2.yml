@@ -12,11 +12,11 @@ on:
       armbian_url:
         description: "Set Armbian file path."
         required: false
-        default: "https://armbian.tnahosting.net/dl/odroidn2/archive/Armbian_23.5.1_Odroidn2_bookworm_current_6.1.30.img.xz"
+        default: "https://armbian.tnahosting.net/dl/odroidn2/archive/Armbian_23.5.1_Odroidn2_jammy_current_6.1.30_minimal.img.xz"
       armbian_board:
         description: "Select device board."
         required: false
-        default: "all"
+        default: "s905d"
         type: choice
         options:
           - all
@@ -129,7 +129,7 @@ on:
       armbian_kernel:
         description: "Select kernel version."
         required: false
-        default: "5.15.1_6.1.1"
+        default: "6.1.1"
         type: choice
         options:
           - 5.4.1_5.10.1
@@ -153,7 +153,7 @@ on:
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
-        default: "stable"
+        default: "flippy"
         type: choice
         options:
           - stable
