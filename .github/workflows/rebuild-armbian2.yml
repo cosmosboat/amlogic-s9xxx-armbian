@@ -12,7 +12,7 @@ on:
       armbian_url:
         description: "Set Armbian file path."
         required: false
-        default: "https://armbian.tnahosting.net/dl/odroidn2/archive/Armbian_23.5.1_Odroidn2_jammy_current_6.1.30.img.xz"
+        default: "https://armbian.tnahosting.net/dl/odroidn2/archive/Armbian_23.8.1_Odroidn2_jammy_current_6.1.50_minimal.img.xz"
       armbian_board:
         description: "Select device board."
         required: false
